@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>INSERT DATA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: lightcyan">
+     <div style="height: 30px;width:100%;background-color:navy">
+            <a href="home.html" style="color:white;font-size:20px;text-decoration: none;padding-left:850px" > 
+                Home
+            </a>&nbsp;&nbsp;
+            <b style="color: white">|</b>
+            <a href="" style="color:white;font-size:20px;text-decoration: none;padding-left:50px" > 
+                About Us
+            </a>&nbsp;&nbsp;
+            <b style="color: white">|</b>
+            <a href="contactus.html" style="color:white;font-size:20px;text-decoration: none;padding-left:50px" > 
+                Contact Us
+            </a>&nbsp;&nbsp;
+            <b style="color: white">|</b>
+            <a href="login.html" style="color:white;font-size:20px;text-decoration: none;padding-left:50px" > 
+                Login
+            </a>
+        </div>
+    <center>
+        <form action="insert.jsp">
+        <div style="height:550px;width:50%;background-color: white;border-radius:8px;border: 5px solid navy;margin-top:50px;">
+            <img src="studentt.jpg" height="150px" width="150px"/>
+            <h4 style="color: white;font-size:50px;margin-top: 10px;margin-bottom: 100px">
+        
+                <input type="text" placeholder="Enter Roll no." name="a0"/>&nbsp;&nbsp;&nbsp;
+                <input type="password" placeholder="Enter password" name="a1"/>
+        <input type="text" placeholder="Enter Name" name="a2"/>
+        <br>
+            <input type="text" placeholder="Enter Father's Name" name="a3"/>&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Mother's Name" name="a4"/>               
+        <br>
+        <select name="a5">
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="BSc(CS)">BSc(CS)</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Phone no." name="a6"/>               
+        <br>
+        <input type="email" placeholder="Enter Email" name="a7"/>&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter Adhaar No." name="a8"/>            
+        <br>
+        <input type="date" name="a9"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter Address" name="a10"/>         
+        <br>
+        <input type="submit" value="Add"/>
+    </h4> 
+        </div>
+            </form>
+    </center>
+    </body>
+</html>
