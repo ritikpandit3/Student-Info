@@ -1,3 +1,3 @@
 # Student-Info
 
-< https://ritiksharma0003.github.io/Student-Info/ >
+< https://ritikpandit3.github.io/Student-Info/ >
